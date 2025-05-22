@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: dimgray;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -5px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+.location {
+  color: chartreuse;
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 10px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.links a {
+  display: block;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.links a:hover {
+  background-color: black;
+}
